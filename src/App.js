@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { toUpper } from 'lodash';
 
@@ -19,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="text-info">From Data Get Fecth From Api</h1>
+      <h1 className="text-info">Data Fecth From Api</h1>
       <table className="table table-bordered">
         <thead>
           <tr>
