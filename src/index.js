@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import ApiFecth from './ApiFecth';
 import reportWebVitals from './reportWebVitals';
+import MyRouter from './MyRouter';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
-    <ApiFecth />
+    <MyRouter />
   </React.StrictMode>,
   document.getElementById('root')
 );
